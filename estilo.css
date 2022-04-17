@@ -1,0 +1,281 @@
+body {
+    background-color: #efd7d2;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/*General style*/
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+ol{
+    text-align: left;
+}
+
+li{
+    list-style: circle;
+}
+img{
+    flex-basis: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/*.h_img{
+    width: 200px;
+}*/
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 10px 15px 10px ;
+}
+
+h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;    
+    flex-basis: 100%;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1rem;
+}
+i{
+     font-size: 50px;
+     margin: 10px 10px 20px;
+ }
+
+ .logo{
+     width: 250px;
+ }
+.section{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+}
+
+.btn{
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Section 1*/
+
+.container-fluid :first-child{
+    gap: 6px;
+    text-align: center;
+}
+
+/*Section 2*/
+
+.container-fluid :nth-child(2){
+    gap: 6px;
+    text-align: center;
+}
+
+.container{
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section_2_div-1{
+    display: flex;
+    flex: 1 1;
+}
+
+.section_2_div-1 :first-child{
+    text-align: right;
+}
+
+.section_2_div-1 :last-child{
+    text-align:left;
+}
+
+/*Section 3*/
+.container-fluid :nth-child(3){
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    min-width: 365px;
+    width: 80%;
+}
+
+.carousel-item{
+    width: 100%;
+}
+
+.c-content{
+    background-color: black;
+    color: aliceblue;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*section 4/5*/
+.section_4-div{
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/*Carousel*/
+.wraper{
+    width: 65%;
+    min-width: 300px;
+}
+
+/*Section 8*/
+.section-8{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-8 h2{
+    flex-basis: 100%;
+}
+
+.section-8 .wraper{
+    width: 65%;
+    min-width: 300px;
+}
+
+.carousel-2{
+    width: 100%;
+}
+.elementor-video{
+    clip-path: circle();
+}
+
+/*Section 9*/
+.section_9 .section_4-div :first-child ol li{
+    text-align: left;
+}
+
+.section_9 .section_4-div :last-child ol li{
+    text-align: left;
+}
+
+/*Section10*/
+.section10 .section_4-div :first-child ol li{
+    text-align: left;
+}
+
+.section_11-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_11-div p{
+    flex-basis: 100%;
+}
+
+.section_11_container_2{
+    min-width: 350px;
+    width: 45%;
+}
+
+.section_11_container{
+    width:100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 20px ;
+    background-color: #FFFFFF;
+}
+
+.section_11_oL{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section_11_oL p{
+    flex-basis: 80%;
+}
+
+.fa-check{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+/*accordion*/
+.accordion{
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    min-width: 360px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.accordion-item{
+    background-color: black;
+    color: aliceblue; 
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
