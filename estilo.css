@@ -288,4 +288,5 @@ footer{
     justify-content: center;
     flex-direction: column;
     overflow-x: hidden;
+    text-align: center;
 }
